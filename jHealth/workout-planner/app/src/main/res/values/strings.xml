@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name">jHealth</string>
+    <string name="action_settings">Settings</string>
+    <string name="update_user_info">Update user info</string>
+    <string name="settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_diet_monitoring">Diet Monitoring</string>
+    <string name="menu_sleep_monitoring">Sleep Monitoring</string>
+    <string name="menu_water_tracker">Water Tracker</string>
+
+    <!--Global-->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <!--DietMonitoring-->
+    <string name="weight_progress">Weight Progress</string>
+    <string name="calorie_counter">Calorie Counter</string>
+    <string name="healthy_recipes">Healthy Recipes</string>
+    <string name="input_new_food">Input new food</string>
+    <string name="choose_from_list">Choose from list</string>
+    <string name="food_diary">Food Diary</string>
+
+    <!--FunctionalityFragment-->
+    <string name="diet_monitoring">Diet monitoring</string>
+    <string name="workout_plan">Workout plan</string>
+
+    <!--PersonalInfoFragment-->
+    <string name="what_is_your_name">What is your name?</string>
+    <string name="name">Name</string>
+    <string name="how_old_are_you">How old are you?</string>
+    <string name="age">Age</string>
+    <string name="gender">What is your gender?</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="what_do_you_weight">How much do you weigh?</string>
+    <string name="weight">Weight</string>
+    <string name="sleep_time">Wake up and sleep time:</string>
+    <string name="information">Information</string>
+    <string name="workout_duration">Workout duration</string>
+    <string name="workout_duration_minutes">Workout duration: %d minutes</string>
+    <!-- workout_duration_minutes triggers a warning in lit. There is no need for plurals since
+    there is no other language supported other than english-->
+
+    <!--WorkoutPlan-->
+    <string name="ABS">ABS</string>
+    <string name="back">Back</string>
+    <string name="biceps">Biceps</string>
+    <string name="calf">Calf</string>
+    <string name="chest">Chest</string>
+    <string name="forearms">Forearms</string>
+    <string name="legs">Legs</string>
+    <string name="shoulders">Shoulders</string>
+    <string name="triceps">Triceps</string>
+
+    <!--WaterTracker-->
+    <string name="drink_target">Drink target:</string>
+    <!--WaterTracker Menu-->
+    <string name="ml">ml</string>
+    <string name="custom">Custom</string>
+    <string name="calories">Calories</string>
+    <string name="submit">Submit</string>
+    <string name="charts_graphs_stats_percentages_etc">charts, graphs, stats, percentages etc.</string>
+    <string name="dash_separator">-</string>
+
+    <!--Status bar notification-->
+    <string name="channel_name">jHealthNotificationChannel</string>
+    <string name="channel_description">jHealth notification channel</string>
+    <string name="notification_title">Health Awarer</string>
+    <string name="notification_message">What have you done for yourself in this past hour?</string>
+
+    <!--Toast notifications-->
+    <string name="null_database_notification">Something went wrong :( \nPlease make sure you provide information about yourself using the menu.</string>
+
+    <!--ABS Fragment-->
+    <string name="incline_bench_situp">Incline Bench Sit-Ups</string>
+    <string name="hanging_leg_raises">Hanging Leg Raises</string>
+    <string name="dumbbell_side_bends">Dumbbell Side Bends</string>
+    <string name="crunches">Crunches</string>
+    <string name="sit_ups">Sit-Ups</string>
+    <string name="leg_raises">Leg Raises</string>
+    <string name="flat_bench_lying_leg_raise">Flat Bench Lying Leg Raise</string>
+    <string name="seated_jackknife">Seated Jackknife</string>
+    <string name="twisting_hip_raise">Twisting Hip Raise</string>
+    <string name="superman">Superman</string>
+    <!--Back Fragment-->
+    <string name="chin_ups">Chin Ups</string>
+    <string name="dead_lifts">Dead Lifts</string>
+    <string name="lat_pull_downs">Lat Pull-Downs</string>
+    <string name="seated_rows">Seated Rows</string>
+    <string name="one_arm_dumbbell_rows">One Arm Dumbbell Rows</string>
+    <string name="barbell_shrugs">Barbell Shrugs</string>
+    <string name="dumbbell_shrugs">Dumbbell Shrugs</string>
+    <string name="back_extensions">Back Extensions</string>
+    <string name="bent_over_row">Bent Over Row</string>
+    <string name="reverse_chin_ups">Reverse Chin Ups</string>
+    <!--Biceps Fragment-->
+    <string name="curls">Curls</string>
+    <string name="barbell_curls">Barbell Curls</string>
+    <string name="preacher_curls">Preacher Curls</string>
+    <string name="hammer_curls">Hammer Curls</string>
+    <string name="cable_biceps_curl">Cable Biceps Curl</string>
+    <!--Chest Fragment-->
+    <string name="bench_presses">Bench Presses</string>
+    <string name="incline_press">Incline Press</string>
+    <string name="dumbbell_presses">Dumbbell Presses</string>
+    <string name="dumbbell_flys">Dumbbell Flys</string>
+    <string name="dumbbell_pullovers">Dumbbell Pullovers</string>
+    <!--Forearm Fragment-->
+    <string name="wrist_curls">Wrist Curls</string>
+    <string name="dumbbell_wrist_twist">Dumbbell Wrist Twist</string>
+    <string name="standing_wrist_curl">Standing Wrist Curl</string>
+    <!--Leg Fragment-->
+    <string name="squats">Squats</string>
+    <string name="angled_leg_press">Angled Leg Press</string>
+    <string name="leg_extension">Leg Extension</string>
+    <string name="dumbbell_lunges">Dumbbell Lunges</string>
+    <string name="power_squats">Power Squats</string>
+    <!--Shoulder Fragment-->
+    <string name="back_presses">Back Presses</string>
+    <string name="seated_front_presses">Seated Front Presses</string>
+    <string name="seated_dumbbell_presses">Seated Dumbbell Presses</string>
+    <string name="upright_rows">Upright Rows</string>
+    <string name="lateral_raises">Lateral Raises</string>
+    <!--Triceps Fragment-->
+    <string name="close_grip_bench_presses">Close Grip Bench Presses</string>
+    <string name="push_downs">Push Downs</string>
+    <string name="triceps_extensions">Triceps Extensions</string>
+    <string name="triceps_pushdown">Triceps Pushdown</string>
+    <string name="diamond_pushup">Diamond Pushup</string>
+
+</resources>
